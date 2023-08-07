@@ -138,7 +138,7 @@ def identify_shapes_and_colors(detected_shapes, image):
 
 def main():
     # Open the camera (use index 0 for the default camera)
-    camera = cv2.VideoCapture(1)
+    camera = cv2.VideoCapture(0)
 
     if not camera.isOpened():
         print("Failed to open the camera.")
